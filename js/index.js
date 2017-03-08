@@ -45,29 +45,29 @@ new Swiper('.swiper-container',{
 		});
 	}
 });
-//music
-~function(){
-	var musicMenu = document.getElementById('musicMenu'),
-		musicAudio = document.getElementById('musicAudio');
-	musicMenu.addEventListener('click',function(){
-		if(musicAudio.paused){
-			musicAudio.play();
-			musicMenu.className = "music move";
-			return;
-		}
-		musicAudio.pause();
-		musicMenu.className = "music move1";
-	},false);
-	function controlMusic(){
-		musicAudio.volume = 0.2;
-		musicAudio.play();
-		/*musicAudio.addEventListener('canplay',function(){
-			// musicMenu.style.display = 'block';
-			// $('#musicMenu').css('display','block');
-			musicMenu.className = "music move";
-		},false);*/
-	}
-	window.setTimeout(controlMusic, 1000);
-}();
+// //music
+// ~function(){
+// 	var musicMenu = document.getElementById('musicMenu'),
+// 		musicAudio = document.getElementById('musicAudio');
+// 	musicMenu.addEventListener('click',function(){
+// 		if(musicAudio.paused){
+// 			musicAudio.play();
+// 			musicMenu.className = "music move";
+// 			return;
+// 		}
+// 		musicAudio.pause();
+// 		musicMenu.className = "music move1";
+// 	},false);
+// 	function controlMusic(){
+// 		musicAudio.volume = 0.2;
+// 		musicAudio.play();
+// 		/*musicAudio.addEventListener('canplay',function(){
+// 			// musicMenu.style.display = 'block';
+// 			// $('#musicMenu').css('display','block');
+// 			musicMenu.className = "music move";
+// 		},false);*/
+// 	}
+// 	window.setTimeout(controlMusic, 1000);
+// }();
 
 

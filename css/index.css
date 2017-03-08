@@ -288,7 +288,7 @@ html, body, .main, .swiper-container, .swiper-slide{
 
 
 
-.music{
+/*.music{
   display: none;
   position: absolute;
   top: .2rem;
@@ -307,7 +307,7 @@ html, body, .main, .swiper-container, .swiper-slide{
 } 
 .main .music.move1{
   display: block;
-}
+}*/
 .main .arrow{
   position: absolute;
   bottom: .2rem;
