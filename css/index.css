@@ -305,7 +305,9 @@ html, body, .main, .swiper-container, .swiper-slide{
   -webkit-animation: musicMove 1s linear 0s infinite both;
   animation: musicMove 1s linear 0s infinite both;
 } 
-
+.main .nusic.move1{
+  display: block;
+}
 .main .arrow{
   position: absolute;
   bottom: .2rem;

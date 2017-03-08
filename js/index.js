@@ -1,4 +1,5 @@
 ~function(){
+	new FastClick(document.body);
 	var desW = 640,
 		winW = document.documentElement.clientWidth,
 		ratio = winW / desW,
@@ -55,7 +56,7 @@ new Swiper('.swiper-container',{
 			return;
 		}
 		musicAudio.pause();
-		musicMenu.className = "music";
+		musicMenu.className = "music move1";
 	},false);
 	function controlMusic(){
 		musicAudio.volume = 0.2;
